@@ -1,140 +1,191 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: AnoTherK-ATK/anotherk-atk.github.io
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: "Vu Ngoc Quoc Khanh"
+title: "Information Security Student · Teaching Assistant · Cloud Engineer Intern"
+email: "khanhvu212@gmail.com"
+phone: "+84 932 646 101"
+website: "https://anotherk-atk.github.io"
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username: "AnoTherK-ATK"
+linkedin_username: "vungocquockhanh"
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+  - title: "GitHub · hls-movie-site"
+    icon: fab fa-github
+    url: "https://github.com/AnoTherK-ATK/hls-movie-site"
+  - title: "GitHub · keycloak-sso-rbac"
+    icon: fab fa-github
+    url: "https://github.com/AnoTherK-ATK/keycloak-sso-rbac"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+about_profile_image: "images/profile.jpg"
+about_content: |
+  I am a **Computer Science (Information Security)** student at UIT (VNU-HCM), passionate about **systems, cybersecurity, and cloud computing**.  
+  I’m the founder of **Le Hong Phong Online Judge**, a **TA at VUS**, and currently a **Cloud Engineer Intern at Cloud Ace**.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I enjoy building real-world products — from HLS streaming websites to SSO/RBAC integrations using Keycloak.
+
+  - **Languages:** Python, C/C++, Java, HTML/CSS, Shell  
+  - **Tools/Platforms:** Git, Linux, Spring Boot, FFMPEG, Keycloak, Azure AD, CCNA (basics)
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        border: weak
+        title: "Movie Website with HLS Streaming"
+        link: "https://github.com/AnoTherK-ATK/hls-movie-site"
+        link_text: "Source code"
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: "GitHub repository"
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: "https://github.com/AnoTherK-ATK/hls-movie-site"
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          A movie website featuring adaptive HLS streaming.
+        description: |
+          - UI built with **HTML**, **Tailwind CSS**, and **JavaScript**  
+          - Backend built with **Spring Boot** and **FFMPEG** for video upload and processing
+      - layout: left
+        border: weak
+        title: "SSO and Role-Based Access System"
+        link: "https://github.com/AnoTherK-ATK/keycloak-sso-rbac"
+        link_text: "Source code"
+        additional_links:
+          - title: "GitHub repository"
+            icon: fab fa-github
+            url: "https://github.com/AnoTherK-ATK/keycloak-sso-rbac"
+        quote: >
+          Unified login and access control with Keycloak.
+        description: |
+          - Integrated **Keycloak** with **Azure Active Directory**  
+          - Implemented **JWT authentication** using **Spring Security**
+
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: "Cloud Ace"
+        sub_title: "Cloud Engineer Intern"
+        caption: "Aug 2025 – Present"
+        link: "https://cloud-ace.com"
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Learning and practicing Google Cloud Platform.
+        description: |
+          - Studied key GCP services  
+          - Modified and deployed **Cloud Run** applications
+      - layout: right
+        title: "VUS"
+        sub_title: "Teaching Assistant"
+        caption: "Mar 2023 – Present"
+        quote: >
+          Supporting teaching and classroom management.
+        description: |
+          - Assisted instructors and followed student progress  
+          - Awarded **“TA of the Year” (2023)**
+      - layout: right
+        title: "Le Hong Phong Online Judge"
+        sub_title: "Founder & Organizer"
+        caption: "Nov 2020 – Present"
+        quote: >
+          Online platform for coding practice and competitions.
+        description: |
+          - Founded and maintained the OJ system  
+          - Organized contests and wrote algorithmic problems
+      - layout: right
+        title: "LHP’s Art of Japan"
+        sub_title: "Project Manager"
+        caption: "Oct 2019 – May 2021"
+        quote: >
+          Multimedia cultural project.
+        description: |
+          - Managed a multi-person creative team  
+          - Led development of a small interactive game
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: "University of Information Technology (VNU-HCM)"
+        sub_title: "B.S. in Information Security (Honor Program)"
+        caption: "Sep 2022 – Expected 2026"
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          GPA: 8.16 / 10
+        description: |
+          - Member of the **Honors Program for Outstanding IT Students**
+      - layout: top-right
+        title: "Le Hong Phong High School for the Gifted"
+        sub_title: "Specialized in Informatics"
+        caption: "Aug 2019 – May 2022"
+        description: |
+          - Graduated with distinction
+
+  - title: Achievements
+    layout: list
+    content:
+      - layout: left
+        title: "ICPC Asia Ho Chi Minh City Regional Contest"
+        sub_title: "Contestant"
+        caption: "Dec 2022"
+        description: |
+          - Competed in a team of three and passed multiple qualifying rounds
+      - layout: left
+        title: "City-Level Excellent Student Programming Contest"
+        sub_title: "Second Prize"
+        caption: "Apr 2022"
+        description: |
+          - Awarded **Second Prize** in the City Informatics Olympiad
+      - layout: left
+        title: "IELTS Academic"
+        sub_title: "Band 6.5"
+        caption: "Feb 2022"
+
+  - title: Technologies
+    layout: text
+    content: |
+      **Languages:** Python, C, C++, Java, HTML/CSS, Shell  
+      **Tools & Platforms:** Git, Linux, Spring Boot, FFMPEG, Keycloak, Azure Active Directory, CCNA (basics)
+
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+    content: |
+      - Passionate about **competitive programming**, **systems**, and **security**  
+      - Enjoy reading technical books and writing learning notes  
+      - Love running, coffee, and building side projects ☕
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# theme: modern-resume-theme
+# remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "lib/"
+  - "scripts/"
+  - "docker-compose.yml"
