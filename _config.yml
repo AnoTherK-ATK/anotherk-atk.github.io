@@ -19,15 +19,6 @@ darkmode: true
 github_username: "AnoTherK-ATK"
 linkedin_username: "vungocquockhanh"
 
-# Additional icon links
-additional_links:
-  - title: "GitHub · hls-movie-site"
-    icon: fab fa-github
-    url: "https://github.com/AnoTherK-ATK/hls-movie-site"
-  - title: "GitHub · keycloak-sso-rbac"
-    icon: fab fa-github
-    url: "https://github.com/AnoTherK-ATK/keycloak-sso-rbac"
-
 # About Section
 about_profile_image: "images/profile.jpg"
 about_content: |
@@ -46,12 +37,12 @@ content:
       - layout: left
         border: weak
         title: "Movie Website with HLS Streaming"
-        link: "https://github.com/AnoTherK-ATK/hls-movie-site"
+        link: "https://github.com/AnoTherK-ATK/Netflop"
         link_text: "Source code"
         additional_links:
           - title: "GitHub repository"
             icon: fab fa-github
-            url: "https://github.com/AnoTherK-ATK/hls-movie-site"
+            url: "https://github.com/AnoTherK-ATK/Netflop"
         quote: >
           A movie website featuring adaptive HLS streaming.
         description: |
@@ -60,12 +51,12 @@ content:
       - layout: left
         border: weak
         title: "SSO and Role-Based Access System"
-        link: "https://github.com/AnoTherK-ATK/keycloak-sso-rbac"
+        link: "https://github.com/AnoTherK-ATK/Netflop"
         link_text: "Source code"
         additional_links:
           - title: "GitHub repository"
             icon: fab fa-github
-            url: "https://github.com/AnoTherK-ATK/keycloak-sso-rbac"
+            url: "https://github.com/AnoTherK-ATK/Netflop"
         quote: >
           Unified login and access control with Keycloak.
         description: |
@@ -79,7 +70,7 @@ content:
         title: "Cloud Ace"
         sub_title: "Cloud Engineer Intern"
         caption: "Aug 2025 – Present"
-        link: "https://cloud-ace.com"
+        link: "https://cloud-ace.vn"
         quote: >
           Learning and practicing Google Cloud Platform.
         description: |
